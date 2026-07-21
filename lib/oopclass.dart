@@ -10,7 +10,7 @@ void main() {
   user2.printUser();
   user3.printUser();
   print("____________________________________________________________");
-  Item Items = Item(150, "laptop");
+  Item Items = Item(150, 8, "laptop");
   Items.printName();
 }
 
@@ -29,8 +29,9 @@ class User {
 class Item {
   String? name;
   int? prace;
+  int model;
   //تعريف الابجكت ب الكونسترنق
-  Item(this.prace, [this.name]);
+  Item(this.prace, this.model, this.name);
   printName() {
     print("name is $name , prace = $prace");
   }

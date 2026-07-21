@@ -2,6 +2,7 @@ import 'funtionone.dart';
 import 'tow.dart';
 
 main() {
+  print("welcome to my acount in github");
   print("frist p");
   String name = "Mohammed";
   String jop = "DOV APP";
